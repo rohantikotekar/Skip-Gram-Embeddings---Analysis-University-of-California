@@ -14,6 +14,7 @@ Hidden layer (projection): It contains the word embeddings, it projects the one-
 Output Layer: For each context word, it predicts its likelihood of being a context word for the given target word.
 Loss Function (with Negative Sampling): To make training computationally efficient, especially with large vocabularies, the Skip-Gram model often uses negative sampling. The likelihood of several randomly chosen incorrect (negative) words not being context words.
 
+### Resume Desctiption
 1. Developed a Skip-Gram model from scratch using NumPy to generate 2-dimensional word embeddings for a custom vocabulary of 10 Californian universities
 2. 2. Implemented a negative sampling technique with 2 negative samples per positive pair to improve computational efficiency of the Skip-Gram model by approximating the full softmax, reducing training time for word embedding generation.
 3. Engineered forward and backward propagation steps for the Skip-Gram model with negative sampling, enabling iterative optimization of word and context embedding matrices over 200 epochs to capture semantic relationships.
