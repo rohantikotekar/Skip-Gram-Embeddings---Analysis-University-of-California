@@ -1,6 +1,6 @@
 # Skip-Gram Embeddings from Scratch - Analysis: University of California
 
-This project is a part of Advanced Natural Language Processing. As an introduction to word embeddings, Prof, Dong taught us this neural network arhitecture. Word embedding are dense vectors and they capuptre semantic and syntactic relationships. Given a target word, it takes into consideration the surrounding 
+This project is a part of Advanced Advanced Natural Language Processing course (CS 222) that I am currently pursuing in Spring 2025. As an introduction to word embeddings, Prof, Dong taught us this neural network arhitecture. Word embedding are dense vectors and they capuptre semantic and syntactic relationships. Given a target word, it takes into consideration the surrounding 
 
 ### Objective 
 - Objective: Instead of predicting a target word from its context the Skip-Gram model aims to predict the surrounding context words given a target (center) word.
